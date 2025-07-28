@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Colors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="colorBoxes" class="color-boxes">
+        </div>
+
+    <div class="topControls">
+        <h1>Color Palette Generator</h1>
+        <div class="control-row">
+            <label for="numInput">How Many:</label>
+            <input type="range" id="numInput" min="2" max="10" value="5">
+            <span id="numValue">5</span>
+        </div>
+        <button id="makeColorsBtn">Make Random Colors</button>
+    </div>
+
+    <div id="copyMsg" class="copy-message">
+        Copied!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
